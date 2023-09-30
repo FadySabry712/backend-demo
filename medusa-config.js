@@ -53,6 +53,7 @@ const plugins = [
       },
     },
   },
+
   {
     resolve: `medusa-file-s3`,
     options: {
@@ -66,6 +67,8 @@ const plugins = [
           process.env.S3_DOWNLOAD_FILE_DURATION,
     },
   },
+
+
 
 ];
 
