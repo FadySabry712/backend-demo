@@ -103,4 +103,9 @@ module.exports = {
   projectConfig,
   plugins,
   modules,
+
+  image_service: {
+    storage: "s3",
+    bucket: process.env.S3_BUCKET,
+    region: process.env.S3_REGION,
 };
