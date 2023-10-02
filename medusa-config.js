@@ -89,6 +89,7 @@ const modules = {
     storage: "s3",
     bucket: process.env.S3_BUCKET,
     region: process.env.S3_REGION,
+  }
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
