@@ -66,11 +66,6 @@ const plugins = [
         download_file_duration:
           process.env.S3_DOWNLOAD_FILE_DURATION,
     },
-    // Add the image service configuration here
-  image_service: {
-    storage: "s3",
-    bucket: process.env.S3_BUCKET,
-    region: process.env.S3_REGION,
   },
 
 
