@@ -29,9 +29,9 @@ const ADMIN_CORS =
 const STORE_CORS = process.env.STORE_CORS || "https://bellezza-store.vercel.app";
 
 const DATABASE_URL =
-  process.env.DATABASE_URL || "postgres://localhost/medusa-store";
+  process.env.DATABASE_URL || "postgresql://postgres:V4fAk379U2b7zYkwMYRn@containers-us-west-153.railway.app:6685/railway";
 
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+const REDIS_URL = process.env.REDIS_URL || "redis://default:iitqQN7iCBW5clfX5pqw@containers-us-west-84.railway.app:7137";
 
 const plugins = [
   `medusa-fulfillment-manual`,
