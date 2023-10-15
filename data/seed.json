@@ -7,7 +7,7 @@
   },
   "users": [
     {
-      "email": "c",
+      "email": "admin@medusa-test.com",
       "password": "supersecret"
     }
   ],
